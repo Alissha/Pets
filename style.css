@@ -1,0 +1,49 @@
+body {
+   background: linear-gradient(to bottom, rgba(229, 201, 226, 1), rgba(111, 79, 132, 1), rgba(49, 30, 73, 1));
+   background-attachment: fixed;
+   text-align: center;
+}
+
+.wrapper {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.img1 {
+   margin: auto;
+   width: 339px;
+   height: 191px;
+   background: 
+      url(../img/b1.svg) 50% 50% / contain no-repeat, 
+      url(../img/logo.svg) 52.8% 33% no-repeat, 
+      url(../img/mypet.svg) 53.3% 70% no-repeat;
+}
+
+.img2 {
+   margin: auto;
+   width: 390px;
+   height: 390px;
+   background: 
+   url(../img/b2.svg) 50% no-repeat,
+   url(../img/cat.svg) 0% 90% no-repeat;
+}
+
+.text {
+   position: absolute;
+   top: 67%;
+   width: 100%;
+   height: 33%;
+   background: url(../img/text1.svg) center 15% no-repeat,
+               url(../img/text2.svg) center 45% no-repeat,
+               url(../img/background.svg) 0 0 / cover no-repeat;
+
+}   
+
+.button {
+   position: relative;
+   top: 70%;
+   width: 291px;
+   height: 44px; 
+   background: url(../img/button.svg) center center / contain no-repeat;
+}

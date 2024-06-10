@@ -1,0 +1,5 @@
+body {
+   background: linear-gradient(to bottom, rgba(229, 201, 226, 1), rgba(111, 79, 132, 1), rgba(49, 30, 73, 1));
+   background-attachment: fixed;
+   text-align: center;
+}
